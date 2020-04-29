@@ -4,7 +4,7 @@ import { TextField } from '@material-ui/core';
 const TextBox = ({ text, setText }) => (
     <TextField
         margin='normal'
-        label="Write something..."
+        label="Brief Hospital Course Information..."
         variant="outlined"
         fullWidth
         multiline

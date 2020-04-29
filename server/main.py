@@ -23,7 +23,7 @@ def get_gen():
 
         result = generate_text(
             model_type='gpt2',
-            length=100,
+            length=10,
             prompt=text,
             model_name_or_path=model
         )

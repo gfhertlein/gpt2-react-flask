@@ -24,9 +24,9 @@ const SelectBox = ({ model, setModel }) => {
                     id: 'model-select',
                 }}
             >
-                <MenuItem value={'gpt2'}>Small (117M)</MenuItem>
-                <MenuItem value={'gpt2-medium'}>Medium (345M)</MenuItem>
-                <MenuItem value={'gpt2-large'}>Large (774M)</MenuItem>
+                <MenuItem value={'gpt2'}>GPT2 - Small</MenuItem>
+                <MenuItem value={'gpt2-medium'}>GPT2 - Medium</MenuItem>
+                <MenuItem value={'gpt2-large'}>GPT2 - Large</MenuItem>
             </Select>
         </FormControl>
     )
